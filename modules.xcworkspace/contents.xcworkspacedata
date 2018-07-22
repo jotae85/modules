@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Modules-Core/Modules-Core.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules-tvOS/Modules-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Modules-iOS/Modules-iOS.xcodeproj">
+   </FileRef>
+</Workspace>
