@@ -1,3 +1,4 @@
+osx_image: xcode10.1
 language: objective-c
 xcode_project: Modules-Core/Modules-Core.xcodeproj
 xcode_scheme: Modules-Core-iOS
