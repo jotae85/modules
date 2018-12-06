@@ -1,4 +1,4 @@
 language: objective-c
 xcode_project: Modules-Core/Modules-Core.xcodeproj
 xcode_scheme: Modules-Core-iOS
-xcode_destination: platform=iOS Simulator,OS=12.1,name=iPad Pro (9.7-inch)
+xcode_destination: platform=iOS Simulator,OS=12.1,name=iPhone X
