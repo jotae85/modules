@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D17E27121B9E7E300002A99 /* Modules_Core_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D17E27021B9E7E300002A99 /* Modules_Core_tvOS.framework */; };
 		0D8CED142104B46F006C2D15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CED132104B46F006C2D15 /* AppDelegate.swift */; };
 		0D8CED162104B46F006C2D15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8CED152104B46F006C2D15 /* ViewController.swift */; };
 		0D8CED192104B46F006C2D15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D8CED172104B46F006C2D15 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D17E27021B9E7E300002A99 /* Modules_Core_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Modules_Core_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8CED102104B46F006C2D15 /* Modules-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modules-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8CED132104B46F006C2D15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8CED152104B46F006C2D15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D17E27121B9E7E300002A99 /* Modules_Core_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,12 +57,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D17E26F21B9E7E300002A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D17E27021B9E7E300002A99 /* Modules_Core_tvOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0D8CED072104B46F006C2D15 = {
 			isa = PBXGroup;
 			children = (
 				0D8CED122104B46F006C2D15 /* Modules-tvOS */,
 				0D8CED242104B471006C2D15 /* Modules-tvOSTests */,
 				0D8CED112104B46F006C2D15 /* Products */,
+				0D17E26F21B9E7E300002A99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};

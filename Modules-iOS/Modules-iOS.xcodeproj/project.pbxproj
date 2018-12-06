@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D17E26E21B9E7D100002A99 /* Modules_Core_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D17E26D21B9E7D100002A99 /* Modules_Core_iOS.framework */; };
 		0D6451052104B3F700C3FFD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6451042104B3F700C3FFD6 /* AppDelegate.swift */; };
 		0D6451072104B3F700C3FFD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6451062104B3F700C3FFD6 /* ViewController.swift */; };
 		0D64510A2104B3F700C3FFD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D6451082104B3F700C3FFD6 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D17E26D21B9E7D100002A99 /* Modules_Core_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Modules_Core_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6451012104B3F700C3FFD6 /* Modules-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modules-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6451042104B3F700C3FFD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D6451062104B3F700C3FFD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D17E26E21B9E7D100002A99 /* Modules_Core_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +59,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D17E26C21B9E7D100002A99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D17E26D21B9E7D100002A99 /* Modules_Core_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		0D6450F82104B3F700C3FFD6 = {
 			isa = PBXGroup;
 			children = (
 				0D6451032104B3F700C3FFD6 /* Modules-iOS */,
 				0D6451182104B3F800C3FFD6 /* Modules-iOSTests */,
 				0D6451022104B3F700C3FFD6 /* Products */,
+				0D17E26C21B9E7D100002A99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
